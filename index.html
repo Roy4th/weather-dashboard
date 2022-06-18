@@ -12,7 +12,9 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
+
     <header class="container-fluid">
       <div class="row bg-primary bg-gradient m-1">
         <h1 class="d-flex justify-content-center text-white">
@@ -20,11 +22,12 @@
         </h1>
       </div>
     </header>
+
     <main>
       <div class="container-fluid">
         <div class="row">
           <!--City Search-->
-          <div class="col-lg- col-12">
+          <div class="col-lg-3 col-12">
             <h2 class="fw-bold d-flex justify-content-left">
               Search for a City:
             </h2>
@@ -42,56 +45,65 @@
           <!--City Weather Info-->
           <div class="col-lg-9 col-12">
             <div class="border border-dark rounded">
-              <h3></h3>
-              <img src="" alt="">
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <h3 id="cityname"></h3>
+              <p id="weather-date"></p>
+              <img id="weathericon" alt="" />
+              <p>Temp: <span id="temp"></span></p>
+              <p>Wind: <span id="wind"></span></p>
+              <p>Humidity: <span id="humidity"></span></p>
+              <p>UV Index: <span id="uv-index"></span></p>
             </div>
 
             <!--5-Day Forecast-->
-            <div>
-              <h3>5-Day Forecast</h3>
-              <div>
-                <p></p>
-                <img src="" alt="" />
-                <p></p>
-                <p></p>
-                <p></p>
-              </div>
-              <div>
-                <p></p>
-                <img src="" alt="" />
-                <p></p>
-                <p></p>
-                <p></p>
-              </div>
-              <div>
-                <p></p>
-                <img src="" alt="" />
-                <p></p>
-                <p></p>
-                <p></p>
-              </div>
-              <div>
-                <p></p>
-                <img src="" alt="" />
-                <p></p>
-                <p></p>
-                <p></p>
-              </div>
-              <div>
-                <p></p>
-                <img src="" alt="" />
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class="row">
+              <div class="col-12">
+                <h3>5-Day Forecast</h3>
+                <div class="row d-flex justify-content-between">
+                  <div class="col-lg-2 col-12 rounded" id="forcast">
+                    <p class="date"></p>
+                    <img class="forcast-icon" alt="" />
+                    <p>Temp: <span class="forcast-temp"></span></p>
+                    <p>Wind: <span class="forcast-wind"></span></p>
+                    <p>Humidity: <span class="forcast-humidity"></span></p>
+                  </div>
+                  <div class="col-lg-2 col-12 rounded" id="forcast">
+                    <p class="date"></p>
+                    <img class="forcast-icon" alt="" />
+                    <p>Temp: <span class="forcast-temp"></span></p>
+                    <p>Wind: <span class="forcast-wind"></span></p>
+                    <p>Humidity: <span class="forcast-humidity"></span></p>
+                  </div>
+                  <div class="col-lg-2 col-12 rounded" id="forcast">
+                    <p class="date"></p>
+                    <img class="forcast-icon" alt="" />
+                    <p>Temp: <span class="forcast-temp"></span></p>
+                    <p>Wind: <span class="forcast-wind"></span></p>
+                    <p>Humidity: <span class="forcast-humidity"></span></p>
+                  </div>
+                  <div class="col-lg-2 col-12 rounded" id="forcast">
+                    <p class="date"></p>
+                    <img class="forcast-icon" alt="" />
+                    <p>Temp: <span class="forcast-temp"></span></p>
+                    <p>Wind: <span class="forcast-wind"></span></p>
+                    <p>Humidity: <span class="forcast-humidity"></span></p>
+                  </div>
+                  <div class="col-lg-2 col-12 rounded" id="forcast">
+                    <p class="date"></p>
+                    <img class="forcast-icon" alt="" />
+                    <p>Temp: <span class="forcast-temp"></span></p>
+                    <p>Wind: <span class="forcast-wind"></span></p>
+                    <p>Humidity: <span class="forcast-humidity"></span></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </main>
+
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </html>
