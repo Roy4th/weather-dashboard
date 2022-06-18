@@ -8,3 +8,7 @@ Roy Velasquez
 Paul Soliz
 
 ## Links
+https://roy4th.github.io/weather-dashboard/
+
+## Screenshot
+![2022-06-18](https://user-images.githubusercontent.com/97925568/174449962-3713c759-d766-4ee2-b216-6ccd2f73342e.png)
